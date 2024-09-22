@@ -26,3 +26,16 @@ hr{
 .app-contnet{
   display: flex;
 }
+
+.app-content {
+  display: flex;
+  /* width: 100%;
+  min-height: 100vh; */
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
