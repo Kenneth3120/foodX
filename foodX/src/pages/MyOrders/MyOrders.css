@@ -1,0 +1,177 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fffcfc; /* Lighter background for a modern feel */
+}
+
+/* My Orders container */
+.my-orders {
+    padding: 20px;
+    max-width: 1000px; /* Narrower width for better readability */
+    margin: 0 auto;
+}
+
+.my-orders h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222; /* Darker heading for better contrast */
+    font-weight: 600;
+}
+
+/* Container for the order list */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each order item */
+    
+}
+
+/* Individual order list item */
+.my-orders-order {
+    background-color: #726060;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(97, 15, 15, 0.05); /* Light shadow for elevation */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+
+}
+
+.my-orders-order:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slight hover effect */
+}
+
+/* Order image and details */
+.my-orders-order img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    object-fit: contain; /* Ensures the image stays proportional */
+}
+
+.my-orders-order .order-details {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Allows the details to take up available space */
+}
+
+.my-orders-order .order-info {
+    flex: 1;
+}
+
+.my-orders-order .order-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #131111; /* Darker gray for readability */
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8); /* Subtle shadow for contrast */
+}
+
+.my-orders-order .order-info p span {
+    color: #111;  /* Even darker for strong contrast */
+}
+
+.my-orders-order .order-info p b {
+    color: #000;  /* Black for emphasized bold text */
+}
+
+.my-orders-order .order-info p:nth-child(3) {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222; /* Bold price text for better readability */
+}
+
+/* Order status and button */
+.my-orders-order .order-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.9rem;
+    color: #555; /* Darker color for status text */
+}
+
+.my-orders-order .order-status b {
+    font-size: 1rem;
+    color: #111; /* Stronger color for status */
+    margin-bottom: 10px;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8); /* Subtle shadow for contrast */
+}
+
+/* Track Order Button */
+.my-orders-order button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.my-orders-order button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .my-orders {
+        padding: 10px;
+    }
+
+    .my-orders h2 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        gap: 15px;
+    }
+
+    .my-orders-order {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .my-orders-order img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .my-orders-order .order-status {
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .my-orders {
+        padding: 10px;
+    }
+
+    .my-orders h2 {
+        font-size: 1.6rem;
+    }
+
+    .my-orders-order {
+        padding: 15px;
+    }
+
+    .my-orders-order img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .my-orders-order p {
+        font-size: 0.85rem;
+    }
+
+    .my-orders-order button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}

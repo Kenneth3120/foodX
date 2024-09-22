@@ -8,13 +8,13 @@ import Footer from './components/Footer/Footer';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import axios from 'axios';
 import OrderSuccess from './pages/orderSuccess/orderSuccess';
-import Verify from './pages/Verify/Verify';
 import MyOrders from './pages/MyOrders/MyOrders';
+import './index.css'; // Ensure your styles are imported
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
-  // Use useEffect to trigger the API call only once when the component mounts
   useEffect(() => {
     const registerUser = async () => {
       try {
@@ -26,12 +26,35 @@ const App = () => {
     };
 
     registerUser();
-  }, []); // Empty dependency array ensures this runs only once on component mount
+  }, []);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://embed.tawk.to/66f084c5e5982d6c7bb2e9e9/1i8dod9qv';
+    script.charset = 'UTF-8';
+    script.setAttribute('crossorigin', '*');
+    document.body.appendChild(script);
+    
+    return () => {
+      // Clean up the script when the component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => !prevMode);
+    if (!darkMode) {
+      document.body.classList.add('dark-mode');
+    } else {
+      document.body.classList.remove('dark-mode');
+    }
+  };
 
   return (
     <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : null}
-      <div className='app'>
+      <div className={`app`}>
         <Navbar setShowLogin={setShowLogin} />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -39,11 +62,14 @@ const App = () => {
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/order-success' element={<OrderSuccess />} />
           <Route path='/myorders' element={<MyOrders />} />
-
-          {/* <Route path='/verify' element={<Verify />} /> */}
         </Routes>
       </div>
       <Footer />
+      <div className="toggle-container">
+        <div className="toggle-circle" onClick={toggleDarkMode}>
+          <span className={`toggle-icon ${darkMode ? 'active' : ''}`}></span>
+        </div>
+      </div>
     </>
   );
 };

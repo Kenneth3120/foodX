@@ -4,6 +4,7 @@ import { assets } from '../../assets/frontend_assets/assets'
 const AppDownload = () => {
   return (
     <div className='app-download' id='app-download'>
+    <h6>More Offers and Enhanced Experience!</h6>
     <p>For Better Experience Download <br /> FoodX App</p>
       <div className='app-download-platforms'>
         <img src={assets.play_store} alt=''/>

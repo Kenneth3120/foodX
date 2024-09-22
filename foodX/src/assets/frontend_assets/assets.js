@@ -1,6 +1,6 @@
-import basket_icon from './basket_icon.png'
-import logo from './logo.png'
-import header_img from './header_img.png'
+import basket_icon from './basket_icon.svg'
+import logo from './logo.svg'
+import header_img from './header_img.svg'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -114,7 +114,18 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
-    }]
+    },
+    {
+        menu_name: "Shawarma",
+        menu_image: menu_8
+    },
+    {
+        menu_name: "Non-Veg",
+        menu_image: food_1
+    }
+
+
+]
 
 export const food_list = [
     {
