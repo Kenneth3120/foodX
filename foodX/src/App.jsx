@@ -6,8 +6,11 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
+import axios from 'axios';
 
 const App = () => {
+
+  axios.post("https://food-x-delta.vercel.app/register")
 
   const [showLogin, setShowLogin] = useState(false)
   return (
