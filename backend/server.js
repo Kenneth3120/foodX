@@ -14,12 +14,12 @@ const port = 4000
 // middleware
 app.use(express.json())
 app.use(cors(
-    // {
-    //     // origin: ["https://food-x-sc6s.vercel.app"],
-    //     origin: ["http://localhost:5173"],
-    //     methods: ["GET", "POST"],
-    //     credentials: true,
-    // }
+    {
+        // origin: ["https://food-x-sc6s.vercel.app"],
+        origin: ["https://food-x-front.vercel.app"],
+        methods: ["GET", "POST"],
+        credentials: true,
+    }
 ))
 
 //db Connection
