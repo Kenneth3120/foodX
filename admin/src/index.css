@@ -39,3 +39,7 @@ hr{
   gap: 10px;
 }
 
+.cursor{
+  cursor: pointer;
+}
+
