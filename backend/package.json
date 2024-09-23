@@ -4,18 +4,18 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",       // Starts the server in production
-    "build": "rm -rf node_modules && npm install",  // Rebuilds bcrypt and other dependencies
-    "server": "nodemon server.js"    // Optional: For local development
+    "start": "node server.js",
+    "build": "rm -rf node_modules && npm install",
+    "server": "nodemon server.js"
   },
   "engines": {
-    "node": "16.x"                   // Specify a compatible Node.js version
+    "node": "16.x"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",              // Keep bcrypt for password hashing
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -28,6 +28,6 @@
     "validator": "^13.12.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"              // Optional: For easier development, restart server on file changes
+    "nodemon": "^3.1.7"
   }
 }
