@@ -17,7 +17,8 @@ app.use(cors(
     {
         // origin: ["https://food-x-sc6s.vercel.app"],
         // origin: ["https://food-x-front.vercel.app", "https://food-x-admin.vercel.app"],
-        origin: ["http://localhost:5173"],
+        // origin: ["http://localhost:517"],
+        origin: ["https://foodx-sx2n.onrender.com"],
         methods: ["GET", "POST", "PUT"],
         credentials: true,
     }
