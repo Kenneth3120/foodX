@@ -14,6 +14,11 @@ I have created a Food Ordering Application utilizing the following technologies:
    <br>
    <br>
 
+   **To Run this Project on Localhost**
+   You can access the file from this link: https://drive.google.com/drive/folders/1J5RUWa1-ciLCD3kVRqw7-zvhWNXhX9a-?usp=sharing
+   <br>
+   <br>
+
    **Features of the Project**
    - Added Dark Mode Toggle Button.
    - Added a Chatbot using Tawk.io API.
@@ -42,7 +47,7 @@ I have created a Food Ordering Application utilizing the following technologies:
 - He can Add Products, List and remove the products if not in stock.
 - View order details and Update the status of the order.
 
-<h3>How to use the project</h3>
+<h2>How to use the Project:</h2>
 
 - There are three Modules:
   1. FoodX (Frontend).
