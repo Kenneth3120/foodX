@@ -1,10 +1,10 @@
 # FoodX - Order your food online now!
 
-I have created a Food Ordering Application utilizing the following three technologies:
+I have created a Food Ordering Application utilizing the following technologies:
 1. React Js.
 2. CSS.
 3. MongoDB Atlas.
-4. Express.
+4. Express and Node.
 
    **Features of the Project**
    - Added Dark Mode Toggle Button.
