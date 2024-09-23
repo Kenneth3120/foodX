@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "https://food-x-admin.vercel.app"
+  const url = "https://foodx-back.onrender.com"
   return (
     <div>
     <ToastContainer />
