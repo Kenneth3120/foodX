@@ -16,8 +16,9 @@ app.use(express.json())
 app.use(cors(
     {
         // origin: ["https://food-x-sc6s.vercel.app"],
-        origin: ["https://food-x-front.vercel.app", "https://food-x-admin.vercel.app"],
-        methods: ["GET", "POST", "PUT", "DELETE"],
+        // origin: ["https://food-x-front.vercel.app", "https://food-x-admin.vercel.app"],
+        origin: ["http://localhost:5173"],
+        methods: ["GET", "POST", "PUT"],
         credentials: true,
     }
 ))
