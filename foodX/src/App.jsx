@@ -19,7 +19,7 @@ const App = () => {
     const registerUser = async () => {
       try {
         // const response = await axios.post('https://food-x-delta.vercel.app/register');
-        const response = await axios.post('https://foodx-back.onrender.com/register');
+        const response = await axios.post('https://foodx-back.onrender.com');
         console.log('User registered:', response.data);
       } catch (error) {
         console.error('Error registering user:', error);
