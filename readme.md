@@ -9,8 +9,8 @@ I have created a Food Ordering Application utilizing the following technologies:
 <b>I have Created APP Youtube Video Link:</b> https://youtu.be/JBzFgBJ-SZE (For more Clarity)
 
    <h2><b>Project Deployment</b></h2><br>
-   - <b>Frontend:</b> https://food-x-front.vercel.app<br>
-   - <b>Admin:</b> https://food-x-admin.vercel.app<br>
+   - <b>Frontend:</b> https://foodx-sx2n.onrender.com<br>
+   - <b>Admin:</b> https://foodx-admin.onrender.com<br>
    <br>
    <br>
 
