@@ -9,7 +9,8 @@ import orderRouter from "./routes/orderRoute.js"
 
 // app Config
 const app = express()
-const port = 4000
+// const port = 4000
+const port = process.env.PORT || 4000; 
 
 // middleware
 app.use(express.json())
@@ -18,7 +19,7 @@ app.use(cors(
         // origin: ["https://food-x-sc6s.vercel.app"],
         // origin: ["https://food-x-front.vercel.app", "https://food-x-admin.vercel.app"],
         // origin: ["http://localhost:517"],
-        origin: ["https://foodx-sx2n.onrender.com"],
+        origin: ["https://foodx-sx2n.onrender.com", "https://foodx-admin.onrender.com"],
         methods: ["GET", "POST", "PUT"],
         credentials: true,
     }
