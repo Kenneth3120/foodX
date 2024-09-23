@@ -6,6 +6,19 @@ I have created a Food Ordering Application utilizing the following technologies:
 3. MongoDB Atlas.
 4. Express and Node.
 
+<b>I have Created APP Youtube Video Link:</b> https://youtu.be/JBzFgBJ-SZE (For more Clarity)
+
+   <h2><b>Project Deployment</b></h2><br>
+   - <b>Frontend:</b> https://food-x-front.vercel.app<br>
+   - <b>Admin:</b> https://food-x-admin.vercel.app<br>
+   <br>
+   <br>
+
+   **To Run this Project on Localhost**
+   You can access the file from this link: https://drive.google.com/drive/folders/1J5RUWa1-ciLCD3kVRqw7-zvhWNXhX9a-?usp=sharing
+   <br>
+   <br>
+
    **Features of the Project**
    - Added Dark Mode Toggle Button.
    - Added a Chatbot using Tawk.io API.
@@ -15,7 +28,7 @@ I have created a Food Ordering Application utilizing the following technologies:
    - Signin Login and Password validation done.
    - Added Cart and Payout logic.
 
-<b>Created APP Youtube Video Link:</b> https://youtu.be/JBzFgBJ-SZE (For more Clarity)
+
 
 
 <h2>Flow of the Project:</h2>
@@ -34,7 +47,7 @@ I have created a Food Ordering Application utilizing the following technologies:
 - He can Add Products, List and remove the products if not in stock.
 - View order details and Update the status of the order.
 
-<h3>How to use the project</h3>
+<h2>How to use the Project:</h2>
 
 - There are three Modules:
   1. FoodX (Frontend).
@@ -61,6 +74,9 @@ I have created a Food Ordering Application utilizing the following technologies:
 
 **To be Completed in the coming days:**
 - Promocode logic during checkout.
+- User Profile Page
+- Embed Google OAuth and Firebase verification.
+- Forgot/ reset password
 - Admin Dashboard with visualizations and detailed edit access.
 - Enhance the User Interface and add more sorting features.
 - Using Webhooks.
@@ -71,4 +87,12 @@ Building this App has made me face a lot of challenges and learn a lot of new th
 coming days. This project challenge has taught me the power of consistency and it has developed my knowledge and problem solving skills. I have built this project from scratch and building this was not less than participating in a Hackathon.
 
 For any Suggestions or any assistance, Please feel free to contact me on mailto:kennethrebello253@gmail.com or +91 8317390275
+
+Contact Details:
+Name: Kenneth Frederick Rebello
+PRN: 1132232029
+Course: Master in Computer Applications (MCA).
+College: Dr. Vishwanath Karad MIT World Peace University Pune.
+Email: kennethrebello253@gmail.com
+Phone: +91 8317390275 / +91 8495030275
 
