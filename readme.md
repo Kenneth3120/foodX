@@ -6,6 +6,14 @@ I have created a Food Ordering Application utilizing the following technologies:
 3. MongoDB Atlas.
 4. Express and Node.
 
+<b>I have Created APP Youtube Video Link:</b> https://youtu.be/JBzFgBJ-SZE (For more Clarity)
+
+   <h2><b>Project Deployment</b></h2><br>
+   - <b>Frontend:</b> https://food-x-front.vercel.app<br>
+   - <b>Admin:</b> https://food-x-admin.vercel.app<br>
+   <br>
+   <br>
+
    **Features of the Project**
    - Added Dark Mode Toggle Button.
    - Added a Chatbot using Tawk.io API.
@@ -15,7 +23,7 @@ I have created a Food Ordering Application utilizing the following technologies:
    - Signin Login and Password validation done.
    - Added Cart and Payout logic.
 
-<b>Created APP Youtube Video Link:</b> https://youtu.be/JBzFgBJ-SZE (For more Clarity)
+
 
 
 <h2>Flow of the Project:</h2>
@@ -61,6 +69,9 @@ I have created a Food Ordering Application utilizing the following technologies:
 
 **To be Completed in the coming days:**
 - Promocode logic during checkout.
+- User Profile Page
+- Embed Google OAuth and Firebase verification.
+- Forgot/ reset password
 - Admin Dashboard with visualizations and detailed edit access.
 - Enhance the User Interface and add more sorting features.
 - Using Webhooks.
