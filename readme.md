@@ -88,3 +88,11 @@ coming days. This project challenge has taught me the power of consistency and i
 
 For any Suggestions or any assistance, Please feel free to contact me on mailto:kennethrebello253@gmail.com or +91 8317390275
 
+Contact Details:
+Name: Kenneth Frederick Rebello
+PRN: 1132232029
+Course: Master in Computer Applications (MCA).
+College: Dr. Vishwanath Karad MIT World Peace University Pune.
+Email: kennethrebello253@gmail.com
+Phone: +91 8317390275 / +91 8495030275
+
