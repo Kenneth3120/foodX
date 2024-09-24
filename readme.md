@@ -8,9 +8,10 @@ I have created a Food Ordering Application utilizing the following technologies:
 
 <b>I have Created APP Youtube Video Link:</b> https://youtu.be/JBzFgBJ-SZE (For more Clarity)
 
-   <h2><b>Project Deployment</b></h2><br>
+   <h2><b>Project Deployment</b></h2><br> Updated Link
    - <b>Frontend:</b> https://foodx-sx2n.onrender.com<br>
    - <b>Admin:</b> https://foodx-admin.onrender.com<br>
+Note: The Products will take some time to load.
    <br>
    <br>
 
@@ -53,6 +54,8 @@ I have created a Food Ordering Application utilizing the following technologies:
   1. FoodX (Frontend).
   2. Backend.
   3. Admin.
+ 
+   Please Note that before running the project on localhost make sure to change the port url to localhost. For reference i have added comments in the project code.
 
 - once you clone the project, you need to open terminals for all the three directories.
 - install the dependencies "npm install Bcrypt, axios, mongoose.
@@ -89,10 +92,10 @@ coming days. This project challenge has taught me the power of consistency and i
 For any Suggestions or any assistance, Please feel free to contact me on mailto:kennethrebello253@gmail.com or +91 8317390275
 
 Contact Details:
-Name: Kenneth Frederick Rebello
-PRN: 1132232029
-Course: Master in Computer Applications (MCA).
-College: Dr. Vishwanath Karad MIT World Peace University Pune.
-Email: kennethrebello253@gmail.com
-Phone: +91 8317390275 / +91 8495030275
+Name: Kenneth Frederick Rebello<br>
+PRN: 1132232029<br>
+Course: Master in Computer Applications (MCA).<br>
+College: Dr. Vishwanath Karad MIT World Peace University Pune.<br>
+Email: kennethrebello253@gmail.com<br>
+Phone: +91 8317390275 / +91 8495030275<br>
 
