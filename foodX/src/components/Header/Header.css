@@ -30,6 +30,14 @@
     font-size: 1vw;
 }
 
+/* Styling the notice below */
+.header-contents .notice {
+    color: #ffcc00; /* Eye-catching color for notice */
+    font-size: 0.9vw; /* Slightly smaller than the main text */
+    margin-top: -1vw;
+}
+
+/* Button styling */
 .header-contents button{
     border: none;
     color: #747474;
@@ -38,7 +46,7 @@
     background-color: white;
     font-size: max(1vw, 13px);
     border-radius: 50px;
-    cursor: po;
+    cursor: pointer;
 }
 
 @media (max-width:1050px){
@@ -46,8 +54,6 @@
         max-width: 45%;
     }
 }
-
-/* Next */
 
 @media (max-width:750px){
     .header-contents{
@@ -59,5 +65,12 @@
     }
     .header-contents button{
         padding: 2vw 4vw;
+    }
+
+    /* Responsive styling for notice */
+    .header-contents .notice {
+        font-size: 3vw; /* Adjust font size for small screens */
+        color: yellow;
+        margin-top: 0.5vw;
     }
 }
