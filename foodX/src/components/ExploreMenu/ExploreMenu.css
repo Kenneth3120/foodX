@@ -56,9 +56,12 @@
 
 /* Styling for the notice in the Explore Menu */
 .notice {
-    color: #ffcc00; /* Notice color for visibility */
+    color: red; /* Change font color to red */
     font-size: 1vw;
     margin: 10px 0; /* Margin for spacing */
+    
+    /* Glowing effect */
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
 }
 
 /* Responsive for larger screens */
@@ -70,6 +73,7 @@
 
     .notice {
         font-size: 2vw; /* Increase font size on smaller screens */
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; /* Ensure glow on smaller screens */
     }
 }
 
@@ -84,6 +88,7 @@
 
     .notice {
         font-size: 3vw; /* Further increase font size for mobile */
-        color: yellow; /* Ensure good visibility */
+        color: red; /* Keep red font color */
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; /* Glowing effect */
     }
 }
